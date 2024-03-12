@@ -11,17 +11,18 @@ html {
 
 body {
     background-color: #181818;
-    color: white;
+    color: azure;
 }
 
 header {
     display: flex;
-    height: 9.5rem;
+    padding: 1.1rem;
 }
 
 .US {
-    font-size: 7rem;
-    margin-left: 1.5rem;
+    font-size: 4.3rem;
+    padding-left: 1.8rem;
+    padding-top: 1.8rem;
     width: 40%;
 }
 
@@ -33,15 +34,16 @@ header {
 
 .navig_item {
     list-style: none;
-    margin: 1.7rem;
-    margin-left: 0.7rem;
+    padding: 1.8rem;
+    padding-top: 3.2rem;
 }
 
 .navig_item a {
+    font-size: 2rem;
     text-decoration: none;
-    font-size: 1.7rem;
-    color: white;
+    color: azure;
 }
+
 
 main {
     display: flex;
@@ -86,6 +88,11 @@ main {
     border: 0.2rem solid aquamarine;
     padding-top: 0.7rem;
     padding-bottom: 1rem;
+}
+
+.navig2_item a{
+    text-decoration: none;
+    color: azure;
 }
 
 .li1 {
