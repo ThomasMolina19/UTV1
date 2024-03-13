@@ -1,7 +1,7 @@
 * {
-	box-sizing: border-box; /* calcula dimensiones para mantener el tamaño */
-	padding: 0;
+	box-sizing: border-box;
 	margin: 0;
+	padding: 0;
 }
 html {
 	font-size: 62.5%;
