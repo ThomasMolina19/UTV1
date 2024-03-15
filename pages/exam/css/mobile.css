@@ -1,3 +1,4 @@
+/* General */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,6 +15,11 @@ body {
     color: azure;
 }
 
+.inactive {
+    display: none;
+}
+
+/* Header */
 header {
     display: flex;
     padding: 0.8rem;
@@ -53,47 +59,4 @@ header {
     color: azure;
 }
 
-main {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 1.5rem;
-}
-
-.bsec {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.sec {
-    width: 100%;   
-}
-
-.pic {
-    width: 100%;
-    text-align: center;
-}
-
-.im {
-    width: 20rem;
-    height: 13rem;
-    border-top-right-radius: 1.5rem;
-    border-top-left-radius: 1.5rem;
-}
-
-.asignature {
-    font-weight: bold;
-    font-size: 1.5rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.3rem;
-    width: 20rem;
-    margin: 0 auto;
-}
-
-.descrp {
-    font-size: 1rem;
-    color: gray;
-    padding-bottom: 1.2rem;
-    width: 20rem;
-    margin: 0 auto;
-}
+/* Questions and Options Containers*/

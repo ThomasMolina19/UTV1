@@ -20,10 +20,19 @@ header {
 }
 
 .US {
-    font-size: 2.3rem;
+    list-style: none;
     padding-left: 1.4rem;
     padding-top: 1.4rem;
     width: 40%;
+}
+
+.US a {
+    text-decoration: none;
+    font-size: 2.3rem;
+    color: azure;
+    cursor: pointer;
+}.US a:hover {
+    color: rgb(114, 255, 208);
 }
 
 .navig {
@@ -105,6 +114,7 @@ main {
     text-align: center;
     justify-content: center;
     padding-top: 3rem;
+    margin-bottom: 1.5rem;
 }   
 
 img {

@@ -26,10 +26,19 @@ header {
 }
 
 .US {
-    font-size: 5rem;
+    list-style: none;
     padding-left: 2rem;
     padding-top: 2rem;
     width: 30%;
+}
+
+.US a {
+    text-decoration: none;
+    font-size: 5rem;
+    color: azure;
+    cursor: pointer;
+}.US a:hover {
+    color: rgb(114, 255, 208);
 }
 
 .navig {
@@ -57,18 +66,18 @@ header {
 }
 
 .question {
-    width: 90%;
-    background-color: white;
+    width: 113rem;
+    background-color: #181818;
     margin: 0 auto;
     padding: 3rem 0;
-    border: 0.7rem red solid;
+    border: 0.4rem azure solid;
     border-radius: 2rem;
     margin-bottom: 3rem;
 }
 
 .question_q {
-    width: 95%;
-    height: 10rem;
+    width: 105rem;
+    height: 30rem;
     background-color: aqua;
     margin: 0 auto;
     margin-bottom: 2rem;
@@ -77,11 +86,12 @@ header {
 .question_op {
     width: 90%;
     height: 8rem;
-    background-color: burlywood;
+    background-color: azure;
     margin: 0 auto;
     margin-top: 2rem;
     margin-bottom: 3rem;
     cursor: pointer;
+    display: flex;
 }
 
 /* Question Qst Inside */
@@ -91,12 +101,15 @@ header {
 }
 
 .qstRimg {
-    width: 4.5rem;
+    width: 6rem;
 }
 
 /* Question Option Inside */
 .qstopP {
     font-size: 2rem;
+    color: black;
+    background-color: aqua;
+    /* margin: auto 0; */
 }
 
 .qstopImg {
@@ -105,7 +118,7 @@ header {
 
 /* Option Pressed */
 .pressed {
-    border: 0.3rem violet solid;
+    border: 0.4rem rgb(114, 255, 208) solid;
 }
 
 /* Button */
