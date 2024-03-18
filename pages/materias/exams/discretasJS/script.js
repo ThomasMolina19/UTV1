@@ -55,10 +55,10 @@ function renderQuestions(arr) {
 
         const question_q = document.createElement('section');
         question_q.classList.add('question_q');
-        const questionRP = document.createElement('p');
-        questionRP.classList.add('qstRP');
-        questionRP.innerText = 'Q';
-        question_q.appendChild(questionRP);
+        // const questionRP = document.createElement('p');
+        // questionRP.classList.add('qstRP');
+        // questionRP.innerText = 'Q';
+        // question_q.appendChild(questionRP);
         const questionRimg = document.createElement('img');
         questionRimg.setAttribute("src", pregunta.qstn);
         questionRimg.classList.add('qstRimg');
@@ -346,7 +346,7 @@ function send() {
     cAnswer.classList.add('cAnswer');
     const answer = document.createElement('p');
     answer.classList.add('answer');
-    answer.innerText = correctAnws;
+    answer.innerText = 'Nota: ' + correctAnws + '.0';
     cAnswer.appendChild(answer);
     questionsContainer.appendChild(cAnswer);
 }
