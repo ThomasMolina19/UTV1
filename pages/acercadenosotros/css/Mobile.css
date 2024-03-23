@@ -1,0 +1,145 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #181818;
+    color: azure;
+}
+
+header {
+    display: flex;
+    padding: 0.8rem;
+}
+
+.US {
+    list-style: none;
+    padding-left: 1.4rem;
+    padding-top: 1.4rem;
+    width: 40%;
+}
+
+.US a {
+    text-decoration: none;
+    font-size: 2.3rem;
+    color: azure;
+    cursor: pointer;
+}.US a:hover {
+    color: rgb(114, 255, 208);
+}
+
+.navig {
+    display: flex;
+    justify-content: right;
+    width: 60%;
+}
+
+.navig_item {
+    list-style: none;
+    padding: 1.6rem;
+    padding-top: 2.2rem;
+}
+
+.navig_item a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: azure;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutContainer {
+    width: 100%;
+    padding-top: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.mainPic {
+    width: 30rem;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.mainImgp {
+    width: 30rem;
+    border-top-left-radius: 1.3rem;
+    border-top-right-radius: 1.3rem;
+}
+
+.contTitleText {
+    width: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.titleAbout {
+    width: 100%;
+    height: 20%;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.textAbout {
+    width: 77%;
+    height: 80%;
+    font-size: 1.3rem;
+    margin: 0 auto;
+}
+
+.conIntegrers {
+    width: 100%;
+    justify-content: center;
+}
+
+.titleInte {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.contBlocks {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    justify-content: center;
+}
+
+.block {
+    width: 17rem;
+    margin: 0 1.5rem;
+}
+
+.intImg {
+    width: 17rem;
+    height: 15rem;
+    border-top-left-radius: 1.3rem;
+    border-top-right-radius: 1.3rem;
+} 
+
+.nameAndC {
+    width: 100%;
+    padding-left: 0.6rem;
+}
+
+.name {
+    font-size: 1rem;
+    padding: 0.3rem 0;
+}
+
+.career {
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+    color: gray;
+}

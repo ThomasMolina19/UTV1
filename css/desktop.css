@@ -11,18 +11,28 @@ html {
 
 body {
     background-color: #181818;
-    color: white;
+    color: azure;
 }
 
 header {
     display: flex;
-    height: 14rem;
+    padding: 1.5rem;
 }
 
 .US {
-    font-size: 9rem;
-    margin-left: 2.5rem;
+    list-style: none;
+    padding-left: 2rem;
+    padding-top: 2rem;
     width: 30%;
+}
+
+.US a {
+    text-decoration: none;
+    font-size: 5rem;
+    color: azure;
+    cursor: pointer;
+}.US a:hover {
+    color: rgb(114, 255, 208);
 }
 
 .navig {
@@ -33,15 +43,14 @@ header {
 
 .navig_item {
     list-style: none;
-    margin: 2.3rem;
-    margin-left: 0.7rem;
-    color: white;
+    padding: 2.3rem;
+    padding-top: 4rem;
 }
 
 .navig_item a {
-    text-decoration: none;
     font-size: 2.3rem;
-    color: white;
+    text-decoration: none;
+    color: azure;
 }
 
 main {
@@ -78,6 +87,7 @@ main {
 }
 
 .navig2 {
+    list-style: none;
     margin-left: 7.5rem;
     display: flex;
     font-size: 2.3rem;
@@ -85,13 +95,17 @@ main {
 }
 
 .navig2_item {
-    list-style: none;
     text-align: center;
     padding: 0 1.8rem;
     border-radius: 3.5rem;
     border: 0.3rem solid aquamarine;
     padding-top: 0.9rem;
     padding-bottom: 1.2rem;
+}
+
+.navig2_item a{
+    text-decoration: none;
+    color: azure;
 }
 
 .li1 {
@@ -107,5 +121,6 @@ main {
 }   
 
 img {
-    height: 50%;
+    width: 39.9rem;
+    height: 51rem;
 }

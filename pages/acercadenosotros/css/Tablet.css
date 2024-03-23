@@ -1,0 +1,145 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #181818;
+    color: azure;
+}
+
+header {
+    display: flex;
+    padding: 1.2rem;
+}
+
+.US {
+    list-style: none;
+    padding-left: 1.8rem;
+    padding-top: 1.8rem;
+    width: 40%;
+}
+
+.US a {
+    text-decoration: none;
+    font-size: 4.3rem;
+    color: azure;
+    cursor: pointer;
+}.US a:hover {
+    color: rgb(114, 255, 208);
+}
+
+.navig {
+    display: flex;
+    justify-content: right;
+    width: 60%;
+}
+
+.navig_item {
+    list-style: none;
+    padding: 1.8rem;
+    padding-top: 3.2rem;
+}
+
+.navig_item a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: azure;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutContainer {
+    width: 100%;
+    padding-top: 1.8rem;
+    flex-wrap: wrap;
+}
+
+.mainPic {
+    width: 50rem;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.mainImgp {
+    width: 50rem;
+    border-top-left-radius: 1.7rem;
+    border-top-right-radius: 1.7rem;
+}
+
+.contTitleText {
+    width: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.titleAbout {
+    width: 100%;
+    height: 20%;
+    font-size: 3rem;
+    padding: 1.5rem;
+}
+
+.textAbout {
+    width: 77%;
+    height: 80%;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+.conIntegrers {
+    width: 100%;
+    justify-content: center;
+}
+
+.titleInte {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.contBlocks {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2.5rem;
+    justify-content: center;
+}
+
+.block {
+    width: 21.5rem;
+    margin: 0 2rem;
+}
+
+.intImg {
+    width: 21.5rem;
+    height: 19.5rem;
+    border-top-left-radius: 1.7rem;
+    border-top-right-radius: 1.7rem;
+} 
+
+.nameAndC {
+    width: 100%;
+    padding-left: 0.8rem;
+}
+
+.name {
+    font-size: 1.4rem;
+    padding: 0.4rem 0;
+}
+
+.career {
+    font-size: 0.95rem;
+    padding-bottom: 1.5rem;
+    color: gray;
+}
