@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/mobile.css">
     <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width: 630px)">
     <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 1135px)">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
     <header>
@@ -17,92 +19,124 @@
     </header>
     <main class="main">
         <section class="questionsContainer">
-
             <section class="question q1">
                 <section class="question_q">
-                    <img src="" alt="" class="qstRimg">
+                    <p alt="" class="qstRimg">Sea \(\mathbf{X} = \begin{pmatrix} x \\ y \\ \end{pmatrix}\) un vector del plano tal que 
+                        \(\mathbf{U} = X - \begin{pmatrix} 5 \\ 7 \\ \end{pmatrix}\),  
+                        es un vector de magnitud 40 ortogonal al vector \(\mathbf{}\begin{pmatrix} -6 \\ 8 \\\end{pmatrix} \).
+                        <br><br>Determine este vector \(\mathbf{X} = \begin{pmatrix} x \\ y \\ \end{pmatrix}\) tal que \(U \cdot\ \begin{pmatrix} -24 \\ -18 \\ \end{pmatrix}\) \(\gt\) \(0\).
+                        <br><br>
+                        Establezca el valor de x y el valor de y.    
+                        </p>
                 </section>
                 <section class="question_op op1-1" onclick="opA(1)">
                     <p class="qstopP">A</p>
-                    <img src="" alt="" class="qstopImg">
+                    <p class="qstopT">\(x=-12\), \(y=22\) </p>
                 </section>
-                <section class="question_op op1-2 " onclick="opB(1)">
+                <section class="question_op op1-2" onclick="opB(1)">
                     <p class="qstopP">B</p>
-                    <img src="" alt="" class="qstopImg">
+                    <p class="qstopT">\(x=23\), \(y=0\)</p>
                 </section>
                 <section class="question_op op1-3 correct" onclick="opC(1)">
                     <p class="qstopP">C</p>
-                    <img src="" alt="" class="qstopImg">
+                    <p class="qstopT">\(x=-27\), \(y=-17\)</p>
                 </section>
                 <section class="question_op op1-4" onclick="opD(1)">
                     <p class="qstopP">D</p>
-                    <img src="" alt="" class="qstopImg">
+                    <p class="qstopT">\(x=41\), \(y=-1\)</p>
                 </section>
             </section>
 
             <section class="question q2">
                 <section class="question_q">
-                    <img src="./question1/questionq.jpeg" alt="" class="qstRimg">
+                    <p alt="" class="qstRimg">Supongamos que la proyección ortogonal del vector \(\mathbf{}\begin{pmatrix} -36 \\ 92\\ \end{pmatrix}\)sobre un vector A es el vector \(\mathbf{} \begin{pmatrix} 8 \\ 4 \\ \end{pmatrix}\). Sea \(\mathbf{} \begin{pmatrix} a \\ b \\ \end{pmatrix}\) la <br><br> proyección ortogonal de \(\mathbf{} \begin{pmatrix} -36 \\ 92 \\ \end{pmatrix}\)
+                        Sobre el vector \(\mathbf{} \begin{pmatrix} -28 \\ 56 \\ \end{pmatrix}\). <br><br>
+                        Establezca el valor de a y el valor de b.    
+                        </p>
                 </section>
+
                 <section class="question_op op2-1 correct" onclick="opA(2)">
                     <p class="qstopP">A</p>
-                    <img src="./question1/optionA.jpeg" alt="" class="qstopImg">
+                    <p class="qstopT">\(a=-44\), \(b=88\)</p>
+                
                 </section>
                 <section class="question_op op2-2" onclick="opB(2)">
                     <p class="qstopP">B</p>
-                    <img src="./question1/optionB.jpeg" alt="" class="qstopImg">
+                    <p class="qstopT">\(a=24\), \(b=11\) </p>
                 </section>
                 <section class="question_op op2-3" onclick="opC(2)">
                     <p class="qstopP">C</p>
-                    <img src="./question1/optionC.jpeg" alt="" class="qstopImg">
+                    <p class="qstopT">\(a=1\), \(b=2\)</p>
                 </section>
                 <section class="question_op op2-4" onclick="opD(2)">
                     <p class="qstopP">D</p>
-                    <img src="./question1/optionD.jpeg" alt="" class="qstopImg">
+                    <p class="qstopT">\(a=14\), \(b=-32\)</p>
                 </section>
             </section>
 
             <section class="question q3">
                 <section class="question_q">
-                    <img src="" alt="" class="qstRimg">
+                    <p alt="" class="qstRimg">Considere los puntos \(\mathbf{A} = \begin{pmatrix} 4 \\ 4\\ \end{pmatrix}\),  
+                        \(\mathbf{B} = \begin{pmatrix} q \\ 1 \\ \end{pmatrix}\), donde q
+                        es algún número real. Para cada uno de los siguientes enunciados, decida si es <b>V</b>erdadero o <b>F</b>also (escriba en
+                        la tabla de respuestas <b>V</b> o <b>F</b> respectivamente).<br><br>
+
+                        (a) Hay un valor de q para el cual \( \angle(BOA)= \pi/4\).<br><br>
+
+                        (b) cos \(\angle(BOA) \gt 0\) cualquiera sea el valor de q. <br><br>
+
+                        (c) Hay un valor de q para el cual \( \angle(BOA)= \pi/3\). <br><br>
+
+                        (d) Si q \( \lt \) 1 entonces sen \( \angle(BOA) \lt 0\). <br><br>
+
+                        (e) Si q = −1 entonces sen \( \angle(BOA) \gt 0\). <br><br>
+
+                        Establezca el valor de a, b, c, d y e. En ese respectivo orden.     
+                        </p>
                 </section>
                 <section class="question_op op3-1" onclick="opA(3)">
                     <p class="qstopP">A</p>
-                    <img src="" alt="" class="qstopImg">
+                    <p class="qstopT">\( a)V\hspace{1cm}b)V\hspace{1cm}c)V\hspace{1cm}d)F\hspace{1cm}e)V \) </p>
                 </section>
-                <section class="question_op op3-2 correct" onclick="opB(3)">
+                <section class="question_op op3-2" onclick="opB(3)">
                     <p class="qstopP">B</p>
-                    <img src="" alt="" class="qstopImg">
+                    <p class="qstopT">\(a)V\hspace{1cm}b)F\hspace{1cm}c)F\hspace{1cm}d)F\hspace{1cm}e)V \)</p>
                 </section>
                 <section class="question_op op3-3" onclick="opC(3)">
                     <p class="qstopP">C</p>
-                    <img src="" alt="" class="qstopImg">
+                    <p class="qstopT">\(a)V\hspace{1cm}b)F\hspace{1cm}c)V\hspace{1cm}d)F\hspace{1cm}e)V \)</p>
                 </section>
-                <section class="question_op op3-4" onclick="opD(3)">
+                <section class="question_op op3-4 correct" onclick="opD(3)">
                     <p class="qstopP">D</p>
-                    <img src="" alt="" class="qstopImg">
+                    <p class="qstopT">\(a)F\hspace{1cm}b)F\hspace{1cm}c)V\hspace{1cm}d)V\hspace{1cm}e)F\)</p>
                 </section>
             </section>
 
             <section class="question q4">
                 <section class="question_q">
-                    <img src="./question1/questionq.jpeg" alt="" class="qstRimg">
+                    <p alt="" class="qstRimg">Dado los vectores \(\mathbf{U} = \begin{pmatrix} -5 \\ 8 \\ \end{pmatrix}\), 
+                        \(\mathbf{V} = \begin{pmatrix} t \\ 81 \\ \end{pmatrix}\), 
+                        \(\mathbf{X} = \begin{pmatrix} -128 \\ 194 \\ \end{pmatrix}\),
+                        determine escalares reales s y t tales que <br><br>
+                        \(X = 4 U + s V\)<br><br>
+                        Establezca el valor de s y el valor de t.    
+                        </p>
                 </section>
                 <section class="question_op op4-1" onclick="opA(4)">
                     <p class="qstopP">A</p>
-                    <p class="qstopT">0</p>
+                    <p class="qstopT">\(s=1\), \(t=44\) </p>
                 </section>
                 <section class="question_op op4-2" onclick="opB(4)">
                     <p class="qstopP">B</p>
-                    <p class="qstopT">-5</p>
+                    <p class="qstopT">\(s=0\), \(t=-10\)</p>
                 </section>
                 <section class="question_op op4-3 correct" onclick="opC(4)">
                     <p class="qstopP">C</p>
-                    <p class="qstopT">-3</p>
+                    <p class="qstopT">\(s=2\), \(t=-54\)</p>
                 </section>
                 <section class="question_op op4-4" onclick="opD(4)">
                     <p class="qstopP">D</p>
-                    <p class="qstopT">18</p>
+                    <p class="qstopT">\(s=23\), \(t=33\)</p>
                 </section>
             </section>
 
