@@ -110,7 +110,7 @@ main {
 
 .li1 {
     margin-right: 2rem;
-    background-color: aquamarine;
+    background-color: #181818;
 }
 
 .pic {
@@ -123,4 +123,8 @@ main {
 img {
     width: 39.9rem;
     height: 51rem;
+}
+
+.li1:hover {
+    background-color: rgb(42, 70, 71);
 }
