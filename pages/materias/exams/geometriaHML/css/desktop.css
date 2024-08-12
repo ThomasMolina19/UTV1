@@ -166,3 +166,7 @@ header {
     font-size: 1.6rem;
     padding: 1.7rem 0;
 }
+
+.navig_item a:hover {
+    color: rgb(114, 255, 208);
+}

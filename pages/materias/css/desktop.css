@@ -97,3 +97,7 @@ main {
     width: 40rem;
     margin: 0 auto;
 }
+
+.navig_item a:hover {
+    color: rgb(114, 255, 208);
+}

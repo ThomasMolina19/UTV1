@@ -140,3 +140,7 @@ main {
     padding-bottom: 2rem;
     color: gray;
 }
+
+.navig_item a:hover {
+    color: rgb(114, 255, 208);
+}
