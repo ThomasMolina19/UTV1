@@ -128,3 +128,7 @@ img {
 .li1:hover {
     background-color: rgb(42, 70, 71);
 }
+
+.navig_item a:hover {
+    color: rgb(114, 255, 208);
+}
